@@ -1,0 +1,72 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.modal__inner {
+    position: relative;
+    z-index: 9999;
+    max-width: 600px;
+    min-height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #fff;
+    top: 25%;
+}
+
+.modal__inner-close {
+    position: relative;
+}
+
+.modal__inner-close button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.modal__inner-close button:hover {
+    background-color: red;
+}
+
+form {
+    margin-left: 25px;
+}
+
+div input {
+    margin-left: 25px;
+    width: 250px;
+    height: 30px;
+}
+
+.modal__inner-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.modal__inner-tel {
+    margin-bottom: 30px;
+}
+
+.modal__inner-email {
+    margin-bottom: 30px;
+}
+
+.modal__inner-name input {
+    margin-left: 53px;
+}
+
+.modal__inner-email input {
+    margin-left: 48px;
+}

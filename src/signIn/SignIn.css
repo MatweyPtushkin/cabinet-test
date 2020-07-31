@@ -1,0 +1,59 @@
+.signIn {
+    margin-top: 50px;
+}
+
+.signIn__inner {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.signIn__inner-header {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.signIn__inner-form {
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+.signIn__inner-form__password {
+    margin-top: 25px;
+} 
+
+.signIn__inner-form__login input {
+    margin-left: 34px;
+    width: 250px;
+    height: 30px;
+}
+
+.signIn__inner-form__password input{
+    margin-left: 25px;
+    width: 250px;
+    height: 30px;
+}
+
+.signIn__inner-form__submit button{
+    margin-top: 40px;
+    width: 150px;
+    height: 30px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    outline: none;
+}
+
+.signIn__inner-form__submit button:hover {
+    background-color: green;
+}
+
+.signIn__inner-form__registration span a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.signIn__inner-form__registration span a:hover {
+    cursor: pointer;
+    color: darkgreen;
+}

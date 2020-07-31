@@ -1,0 +1,29 @@
+.app {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 25px;
+}
+
+.container p {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  width: 250px;
+  height: 30px;
+  background-color: lightgreen;
+  outline: none;
+}
+
+button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+nav {
+    font-size: 28px;
+    background-color: lightgreen;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin: 25px 0;
+}
+
+nav ul li:last-child {
+    margin-left: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: orange;
+}
